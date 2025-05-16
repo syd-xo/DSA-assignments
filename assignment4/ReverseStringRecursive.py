@@ -1,7 +1,9 @@
 def reverse_string(s):
-    if len(s) <= 1: #base case
+    if s == "":
         return s
-    return reverse_string(s[1:]) + s[0] #recursive case
+    else:
+        return reverse_string(s[1:]) + s[0]
 
-print(reverse_string("hello"))
-print(reverse_string("world"))
+original = "hello"
+reversed_string = reverse_string(original)
+print("Reversed string:", reversed_string)
