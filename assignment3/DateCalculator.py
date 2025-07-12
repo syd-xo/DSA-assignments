@@ -33,4 +33,4 @@ day_of_week = date.calculate_day_of_the_week()
 months = ["", "January","February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 
 #output
-print(f"\nYay! {months [month]} {day}, {year} was a {day_of_week}! 🌸✨")
+print(f"\nYay! {months [month]} {day}, {year} was a {day_of_week}!")
