@@ -1,3 +1,4 @@
+# This program calculates the day of the week for a given date using Zeller's Congruence.
 class DateCalculator:
     def __init__(self, year: object, month: object, day: object) -> None:
         self.year= year

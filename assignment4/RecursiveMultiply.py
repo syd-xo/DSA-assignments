@@ -1,3 +1,7 @@
+# Recursive Multiplication
+# This program performs multiplication of two numbers using recursion.
+# It handles both positive and negative integers, and the base case is when the second number is zero.
+# The function recursively adds the first number to itself, reducing the second number until it reaches zero.
 def recursive_multiply(a, b):
     if b == 0: #base case
         return 0

@@ -1,3 +1,8 @@
+# This program reverses a string using recursion.
+# The base case is when the string is empty, returning the empty string.
+# Otherwise, it recursively calls itself with the substring excluding the first character,
+# and appends the first character to the end of the result.
+# It prints the reversed string.
 def reverse_string(s):
     if s == "":
         return s

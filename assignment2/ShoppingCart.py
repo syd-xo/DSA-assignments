@@ -37,9 +37,9 @@ def add_item(name, quantity, price):
 
 
 if __name__ == "__main__":
-   cart: add_item("kiwi",69, 70.8)
-   cart: add_item("apple", 45, 31.4)
-   cart: add_item("grape", 60, 89.2)
+   cart: add_item("kiwi",69, 70.8) # type: ignore
+   cart: add_item("apple", 45, 31.4) # type: ignore
+   cart: add_item("grape", 60, 89.2) # type: ignore
 
    print(">>> Ordinary Cart<<<")
    cart.summary()
